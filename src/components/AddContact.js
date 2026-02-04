@@ -19,7 +19,7 @@ const AddContact = ({ addContactHandler }) => {
 
   return (
     <div className="ui main">
-      <h2>Add Contact</h2>
+      <h2>Add Contacts</h2>
       <form className="ui form" onSubmit={add}>
         <div className="field">
           <label>Name</label>
@@ -41,7 +41,7 @@ const AddContact = ({ addContactHandler }) => {
             onChange={(e) => setContact({ ...contact, email: e.target.value })}
           />
         </div>
-        <button className="ui button blue">Add</button>
+        <button className="ui button blue">Add Contact</button>
       </form>
     </div>
   );

@@ -2,7 +2,7 @@
   "name": "firstproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Karthikgit47.github.io/firstproject",
+ 
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
